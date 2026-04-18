@@ -1,0 +1,96 @@
+:root {
+    --primary: #dc3545;
+    --secondary: #ffc107;
+    --accent: #fd7e14;
+    --dark: #343a40;
+    --light: #ffffff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    background: var(--primary);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--light);
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+
+section {
+    padding: 100px 20px;
+}
+
+
+#home {
+    background: url('MANJARES\Downloads\file_0000000014d8720baf07848e9dab1220.png;') no-repeat center/cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: right;
+}
+
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+footer {
+    background: var(--dark);
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+#home {
+    background: url(../../Downloads/666249613_4135117866800778_4369088372221596611_n.jpg) center/cover;
+    min-height: 100vh;
+    transition: background-img 0.5s ease;
+  
+}
+  
+
+   
